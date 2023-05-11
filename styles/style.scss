@@ -1,10 +1,17 @@
+@import './estilos/navbar.scss';
 // Fontes
-$fonte: 'Roboto', sans-serif;
+$fonte-logo:'Pacifico', cursive;
+$fonte-manchete:'Libre Baskerville', serif;
+$fonte-texto:'Libre Baskerville', serif;
 
 // Cores
-$cor-primaria: #495371;
-$cor-secundaria: #74959A;
-$cor-terciaria: #F1E0AC;
+$cor-primaria: #020826;
+$cor-secundaria: #716040;
+$cor-terciaria: #ffffff;
+
+$cor-bg-primaria:#F9F4EF;
+$cor-bg-secundaria:#020826;
+
 
 // tamanho das fontes
 $tamanho-do-texto: 3rem;

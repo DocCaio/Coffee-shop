@@ -61,9 +61,10 @@
 
 /* Segunda section*/
 
-.section-man-2 {
+.section-main-2 {
     background: var(--cor-bg-secundaria);
     display: flex;
+    justify-content: space-around;
 }
 
 .div-main-2 {
@@ -76,15 +77,22 @@
     color: var(--cor-terciaria);
     font-weight: 700;
     font-size: 48px;
+    margin-top: 2em;
 }
 
 .textos-2 {
     font-family: var(--fonte-texto);
     color: var(--cor-terciaria);
     font-weight: 400;
-    font-size: 20px
+    font-size: 20px;
+    padding: 2em;
 }
 
 .imagem-main-2 {
+   
+    border-radius: 30px;    
     width: 30%;
+    padding: 2em;
+    
+    
 }

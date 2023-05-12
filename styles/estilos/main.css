@@ -55,7 +55,8 @@
 
 .imagem-main-1 {
     border-radius: 30px;
-    margin-top: 3.2em;   
+    margin-top: 3.2em;
+    margin-bottom: 2em;   
     width: 30%;
 }
 
@@ -67,10 +68,7 @@
     justify-content: space-around;
 }
 
-.div-main-2 {
-    
 
-}
 
 .sub {
     font-family: var(--fonte-manchete);
@@ -89,10 +87,10 @@
 }
 
 .imagem-main-2 {
-   
+    padding: 1em;
     border-radius: 30px;    
     width: 30%;
-    padding: 2em;
+    border: 1px solid;
     
     
 }

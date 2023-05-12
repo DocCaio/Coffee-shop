@@ -1,14 +1,17 @@
-.cabecalho{
+.cabecalho {
    background: var(--cor-bg-primaria);
 
 }
 
-.logo{
+.logo {
     font-family: var(--fonte-logo);
     font-weight: 400;
     font-size: 24px;
     line-height: 42px;
     color: var(--cor-secundaria);
+    text-decoration: none;
+    margin: 2.5em 2.5em;
+    padding: 5em;
 }
 
 .link {
@@ -17,4 +20,7 @@
     font-size: 14px;
     line-height: 21px;
     color: var(--cor-secundaria);
+    text-decoration: none;
+    margin: 0.2em 2.5em;
+    padding: 0.5em;
 }

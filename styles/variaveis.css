@@ -1,8 +1,10 @@
+@import '/styles/estilos/header.css';
+
 :root {
 /* Fontes */
 --fonte-logo: 'Merienda', cursive;
 --fonte-manchete:'Libre Baskerville', serif;
---fonte-texto:'Libre Baskerville', serif;
+--fonte-texto:'Poppins', sans-serif;;
 
 /* Cores*/
 --cor-primaria: #020826;

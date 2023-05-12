@@ -1,5 +1,5 @@
 
-.section-main {
+.section-main-1 {
     display: flex;
     background: var(--cor-bg-primaria);  
     justify-content: space-between;
@@ -7,7 +7,7 @@
     
 }
 
-.div-main {
+.div-main-1 {
     display: flex;
     flex-direction: column;
 
@@ -53,8 +53,38 @@
     
 }
 
-.imagem-main {
+.imagem-main-1 {
     border-radius: 30px;
     margin-top: 3.2em;   
+    width: 30%;
+}
+
+/* Segunda section*/
+
+.section-man-2 {
+    background: var(--cor-bg-secundaria);
+    display: flex;
+}
+
+.div-main-2 {
+    
+
+}
+
+.sub {
+    font-family: var(--fonte-manchete);
+    color: var(--cor-terciaria);
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.textos-2 {
+    font-family: var(--fonte-texto);
+    color: var(--cor-terciaria);
+    font-weight: 400;
+    font-size: 20px
+}
+
+.imagem-main-2 {
     width: 30%;
 }

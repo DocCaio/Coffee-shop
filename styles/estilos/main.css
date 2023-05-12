@@ -1,10 +1,9 @@
-.principal {
-    background: var(--cor-bg-primaria);
-   
-}
 
 .section-main {
     display: flex;
+    background: var(--cor-bg-primaria);    
+    flex-direction: row;
+    
 }
 
 .manchetes {
@@ -31,6 +30,24 @@
     padding: 2em;
 }
 
+.botao-main {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #8C7851;
+    border-radius: 8px;    
+    padding: 20px 40px;
+    width: 18px;
+    height: 8px;
+    
+    
+}
+
 .imagem-main {
+    border-radius: 30px;
+    margin-top: 3.2em;   
     width: 30%;
 }

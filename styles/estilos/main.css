@@ -1,7 +1,7 @@
 
 .section-main-1 {
-    display: flex;
-    background: var(--cor-bg-primaria);  
+    background: var(--cor-bg-primaria);
+    display: flex;     
     justify-content: space-between;
     
     
@@ -107,7 +107,9 @@
 }
 .ul-main {
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;
+    padding: 2em 0em;
+      
         
    
 }
@@ -116,8 +118,49 @@
     margin-top: 4em;
 }
 
+/*Quarta section*/
 
+.section-main-4 {
+    background: var(--cor-bg-primaria);
+    display: flex;     
+    justify-content: space-between;
+         
+     
+}
 
+.div-main-2 {
+    margin: 5em;
+    
+}
+
+.sub-2 {
+    font-family: var(--fonte-manchete);
+    color: var(--cor-primaria);
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.textos-3 {
+    font-family: var(--fonte-texto);
+    color: var(--cor-bg-secundaria);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+    .imagem-main-4 {
+        border-radius: 30px;
+        width: 601px;
+        height: 571px;
+        margin-right: 2em;
+
+    }
+.horarios {
+    font-family: var(--fonte-texto);
+    color: var(--cor-bg-secundaria);
+    font-weight: 400;
+    font-size: 1em;
+}
+    
 
 
 

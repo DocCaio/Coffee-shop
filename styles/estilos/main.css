@@ -86,12 +86,13 @@
 
 .imagem-main-2 {
     padding: 1em;
-    border-radius: 30px;    
+    border-radius: 30px;
+    border: 1px solid;     
     width: 30%;
-    border: 1px solid;
-    
+      
     
 }
+
 /*Terceira section*/
 
 .imagem-main-3 {
@@ -129,7 +130,7 @@
 }
 
 .div-main-2 {
-    margin: 5em;
+    margin: 15em;
     
 }
 
@@ -159,6 +160,12 @@
     color: var(--cor-bg-secundaria);
     font-weight: 400;
     font-size: 1em;
+}
+
+.ul-main-2 {
+    display: flex;
+    justify-content: space-around;     
+    
 }
     
 

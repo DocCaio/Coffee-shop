@@ -64,6 +64,7 @@
     background: var(--cor-bg-secundaria);
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 
@@ -81,14 +82,16 @@
     color: var(--cor-terciaria);
     font-weight: 400;
     font-size: 20px;
-    padding: 2em;
+    padding: 1em 0em;
+   
 }
 
-.imagem-main-2 {
-    padding: 1em;
-    border-radius: 30px;
-    border: 1px solid;     
+.imagem-main-2 {    
+    border-radius: 2.5em;
+    border: 1px solid;
+    height: 30%;     
     width: 30%;
+    padding: 2em;
       
     
 }
@@ -148,13 +151,20 @@
     font-size: 20px;
 }
 
+.ul-main-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;    
+    
+}
+
     .imagem-main-4 {
         border-radius: 30px;
         width: 601px;
-        height: 571px;
-        margin-right: 2em;
+        height: 571px;        
 
     }
+
 .horarios {
     font-family: var(--fonte-texto);
     color: var(--cor-bg-secundaria);
@@ -162,11 +172,7 @@
     font-size: 1em;
 }
 
-.ul-main-2 {
-    display: flex;
-    justify-content: space-around;     
-    
-}
+
     
 
 

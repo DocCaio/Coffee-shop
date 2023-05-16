@@ -1,5 +1,6 @@
-@import '/styles/estilos/header.css';
-@import '/styles/estilos/main.css';
+@import url('/styles/estilos/header.css');
+@import url('/styles/estilos/main.css');
+@import url('/styles/estilos/footer.css');
 
 :root {
 /* Fontes */

@@ -1,0 +1,40 @@
+.rodape {
+   
+    background: var(--cor-bg-secundaria);
+}
+
+.ul-footer {
+    color: var(--cor-terciaria);
+}
+
+
+
+
+
+.logo-rodape {
+    font-family: var(--fonte-logo);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.lista-rodape {
+    font-family: var(--fonte-texto);
+    color: var(--cor-terciaria);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;    
+    text-align: left;
+
+}
+
+.subtxt {
+    font-family:var(--fonte-texto);    
+    width: 72px;
+    height: 27px;    
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}

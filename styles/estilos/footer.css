@@ -3,12 +3,22 @@
     background: var(--cor-bg-secundaria);
 }
 
-.ul-footer {
+.div-rodape {
+    font-family: var(--fonte-texto);
     color: var(--cor-terciaria);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;    
+    
+    
+
 }
-
-
-
+.ul-footer {
+    display: inline-flex;
+    flex-direction: column;   
+    
+    
+}
 
 
 .logo-rodape {
@@ -20,15 +30,6 @@
     text-decoration: none;
 }
 
-.lista-rodape {
-    font-family: var(--fonte-texto);
-    color: var(--cor-terciaria);
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 18px;    
-    text-align: left;
-
-}
 
 .subtxt {
     font-family:var(--fonte-texto);    

@@ -174,27 +174,8 @@
 }
 
 
-.imagem-mini {
-    display: none;
-}
 
-@media screen and (max-width: 390px) {
 
-    .imagem-main-1 {
-       display: none;
-    }
-
-    .imagem-mini  {
-        display: block;
-      border-radius: 30px;
-      width: 50%;
-      height: 50%;
-    }
-
-    
-
-    
-}
 
     
 

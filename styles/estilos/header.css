@@ -26,23 +26,3 @@
 }
 
 
-@media screen and (max-width: 390px) {
-    .logo {
-        align-items: flex-start;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 42px;               
-        
-      
-    }
-
-    .link {
-        
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 21px;     
-      
-    }
-
-    
-}

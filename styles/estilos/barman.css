@@ -1,0 +1,19 @@
+
+.container_dark {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cor-bg-secundaria);
+    color: var(--cor-terciaria);
+    padding: 2rem 1rem;
+        
+}
+
+.container_barman-img {
+    max-width: 100%;
+}
+
+.container_barman-link {
+    color: var(--cor-terciaria);
+}
+

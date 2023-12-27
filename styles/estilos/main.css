@@ -1,7 +1,11 @@
 @import url('/styles/variaveis.css');
 
+body{
+    background-color: var(--cor-bg-primaria);    
+}
+
 .main {
-    background-color: var(--cor-bg-primaria) 100%;
+    margin-bottom: 2rem;
 }
 
 a {

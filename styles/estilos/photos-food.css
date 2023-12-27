@@ -1,0 +1,16 @@
+
+.container_photos {
+ background-color: var(--cor-bg-secundaria);
+ color: var(--cor-terciaria); 
+        
+}
+
+.container_photos-food {
+    max-width: 100%;
+    margin: 0.5rem 0;
+}
+
+.container_photos-food:nth-child(1) {
+   border-radius: 20px;
+
+} 

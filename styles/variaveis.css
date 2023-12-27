@@ -1,5 +1,7 @@
 @import url('/styles/estilos/header.css');
 @import url('/styles/estilos/main.css');
+@import url('/styles/estilos/barman.css');
+@import url('/styles/estilos/photos-food.css');
 @import url('/styles/estilos/footer.css');
 
 :root {

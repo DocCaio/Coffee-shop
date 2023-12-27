@@ -1,4 +1,23 @@
+@import url('/styles/variaveis.css');
 
+.main {
+    background-color: var(--cor-bg-primaria) 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main_btn {
+  border-radius: 8px;
+  background: var(--cor-botao, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #8C7851);
+  padding: 1rem 2rem;
+  color: var(--cor-terciaria);  
+}
+
+.reservas {
+    color: var(--cor-secundaria);   
+}
 
 
 

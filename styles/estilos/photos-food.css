@@ -14,3 +14,28 @@
    border-radius: 20px;
 
 } 
+
+.container_workplace-photos-room {
+    max-width: 100%;
+    margin: 0.5rem 0;
+}
+
+.container_workplace-photos-room:nth-child(1) {
+    border-radius: 20px;     
+}
+
+.container_workplace-texts-information {
+    display: flex;
+    gap: 1rem;
+}
+
+.container_workplace-texts-information-place {
+    display: flex;    
+    align-items: center;
+    gap: 1rem;
+}
+  
+
+
+
+

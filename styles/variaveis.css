@@ -2,6 +2,7 @@
 @import url('/styles/estilos/main.css');
 @import url('/styles/estilos/barman.css');
 @import url('/styles/estilos/photos-food.css');
+@import url('/styles/estilos/clients.css');
 @import url('/styles/estilos/footer.css');
 
 :root {
@@ -20,6 +21,15 @@
 --cor-bg-primaria:#F9F4EF;
 --cor-bg-secundaria:#020826;
 
+
+/*clients*/
+--cor-brands: #B6B6B6;
+
+--brand1:'KoHo', sans-serif;
+--barnd2:'Anek Kannada', sans-serif;
+--brand3:'Lobster', sans-serif;
+--brand4:'Kadwa', serif;
+--brand5:'Joti One', serif;
 
 
 }

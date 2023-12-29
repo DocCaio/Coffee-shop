@@ -1,57 +1,31 @@
-hr {
-    margin: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-.rodapé {
-    background-color: var(--cor-bg-secundaria);
-    padding: 1em;
-}
+ .footer {
+    background-color:var(--cor-bg-secundaria);
+ }
 
-.lista-rodapé {
-    display: none;
-   
-}
+ .footer-logo {
+  color: var(--cor-bg-primaria);
+  font-family:var(--fonte-logo);
+  font-size: 2rem;  
+  font-weight: 400;
+ }
 
-@media screen and (min-width: 1024px) {
-    .rodapé {
-        display: flex;
-        justify-content: space-around;
-    }
+ .footer_facilidades-span , .footer_suporte-span , .footer_endereco-span {
+    color: var(--cor-footer-text);
+    font-family: var(--fonte-texto);
+    font-size: 1.2rem;   
+    font-weight: 600;
+ }
 
-    .lista-rodapé {
-        display: block;
-    }
+ .footer_facilidades-list, .footer_suporte-list , .footer_endereco-list , .footer-paragrafo , .footer-rights {
+    color: var(--cor-footer-text);
+    font-family: var(--fonte-texto);
+   font-size: 1rem;
+  font-weight: 400;  
+  list-style: none;
 
-    .lista-rodapé__item {
-        display: flex;
-        align-items: center;
-        margin: 0.6em 0;
-    }
+ }
 
-    .lista-rodapé__link {
-        color: var(--cor-terciaria);
-        text-decoration: none;
-        margin-left: 0.6em;
-    }
 
-    .lista-rodapé__titulo {
-        font-size: 14px;
-        color: var(--cor-terciaria);
-    }
 
-    .rodapé__titulo {
-        font-size: 24px;
-        color: var(--cor-terciaria);
-    }
-}
-
-@media screen and (min-width: 1728px) {
-    .lista-rodapé {
-        border-left: 1px solid var(--cor-terciaria);
-        padding-left: 1em;
-    }
-
-    .rodapé {
-        padding: 3em 0;
-    }
-}

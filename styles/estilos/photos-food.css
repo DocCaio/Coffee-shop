@@ -5,7 +5,7 @@
         
 }
 
-.container_photos-food {
+.container_photos-food {   
     max-width: 100%;
     margin: 0.5rem 0;
 }
@@ -20,7 +20,7 @@
     margin: 0.5rem 0;
 }
 
-.container_workplace-photos-room:nth-child(1) {
+.container_workplace-photos-room:nth-child(1) {    
     border-radius: 20px;     
 }
 

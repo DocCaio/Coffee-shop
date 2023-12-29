@@ -9,13 +9,15 @@
 /* Fontes */
 --fonte-logo: 'Merienda', cursive;
 --fonte-manchete:'Libre Baskerville', serif;
---fonte-texto:'Poppins', sans-serif;;
+--fonte-texto:'Poppins', sans-serif;
+--fonte-logo:'Pacifico', cursive;
 
 /* Cores*/
 --cor-primaria: #020826;
 --cor-secundaria: #716040;
 --cor-terciaria: #ffffff;
 --cor-botao: #8C7851;
+--cor-footer-text:#F6FAFF;
 
 
 --cor-bg-primaria:#F9F4EF;

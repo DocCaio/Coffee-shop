@@ -1,6 +1,6 @@
 @import url('/styles/variaveis.css');
 
-body{
+body {
     background-color: var(--cor-bg-primaria);    
 }
 

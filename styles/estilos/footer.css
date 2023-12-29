@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
- .footer {
+ .footer {   
     background-color:var(--cor-bg-secundaria);
+ }
+
+ .footer > section {
+   display: flex;
+   justify-content: center;
+   text-align: start;
+   flex-direction: column;
+   margin-left: 1rem;
  }
 
  .footer-logo {
   color: var(--cor-bg-primaria);
-  font-family:var(--fonte-logo);
+  font-family:var(--fonte-logo-footer);
   font-size: 2rem;  
   font-weight: 400;
  }
+
 
  .footer_facilidades-span , .footer_suporte-span , .footer_endereco-span {
     color: var(--cor-footer-text);
@@ -25,6 +34,10 @@
   font-weight: 400;  
   list-style: none;
 
+ }
+
+ .footer-rights {
+   margin-bottom: 1rem;
  }
 
 

@@ -18,4 +18,44 @@
     
 }
 
+.clients-brands-1 {
+    color: var(--cor-brands);
+    font-family: var(--brand1);
+    font-size: 1rem;    
+    font-weight: 400;
+    
+}
+
+.clients-brands-2 {
+    color: var(--cor-brands);
+    font-family: var(--brand2);
+    font-size: 1rem;    
+    font-weight: 400;
+
+}
+
+
+.clients-brands-3 {
+    color: var(--cor-brands);
+    font-family: var(--brand3);
+    font-size: 1rem;    
+    font-weight: 400;
+
+}
+
+.clients-brands-4 {
+    color: var(--cor-brands);
+    font-family: var(--brand4);
+    font-size: 1rem;    
+    font-weight: 400;
+
+}
+
+.clients-brands-5 {
+    color: var(--cor-brands);
+    font-family: var(--brand5);
+    font-size: 1rem;    
+    font-weight: 400;
+
+}
 

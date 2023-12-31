@@ -5,7 +5,13 @@
         
 }
 
-.container_photos-food {   
+.container_photos-food-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_photos-food {     
     max-width: 100%;
     margin: 0.5rem 0;
 }

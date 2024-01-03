@@ -65,6 +65,10 @@ a {
   
 @media (min-width: 1440px) {
 
+  .main {
+    margin-top: 1rem;
+  }
+
   .main section {
     display: flex;
     justify-content: space-around;
@@ -86,6 +90,7 @@ a {
 
    .main-img {
     display: block;
+    border-radius: 20px;
    }
 
    

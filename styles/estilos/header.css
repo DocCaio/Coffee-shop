@@ -1,13 +1,30 @@
 .header {
-    display: none;
+  display: none;
+}
+
+.logo-nav {
+  color: var(--cor-secundaria);
+  font-family: var(--fonte-logo-footer);
+  font-size: 0.8rem;
+  font-weight: 400;
+
 }
 
 
 @media (min-width: 1440px) {
   .nav {
-     display: flex;
-     justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
 
+  }
+
+  .logo-nav {
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-logo-footer);
+    font-size: 1.5rem;
+    font-weight: 400;
+  
   }
 
   .list-nav {
@@ -21,6 +38,3 @@
   }
 
 }
-
-
-

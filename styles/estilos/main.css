@@ -8,6 +8,18 @@ body {
     margin-bottom: 2rem;
 }
 
+h1 {
+ color: var(--Headline, #020826);
+ font-family: Libre Baskerville;
+ font-size: 2rem;
+ font-weight: 400;
+
+}
+
+.main-img {
+  display: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -22,6 +34,10 @@ a {
 .reservas {
     color: var(--cor-secundaria);
     position: relative;  
+    display: inline-flex;
+    padding: 8px 0px;
+    align-items: center;
+    gap: 10px;
    
   }
 
@@ -45,6 +61,41 @@ a {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+
+  
+@media (min-width: 1440px) {
+
+  .main section {
+    display: flex;
+    justify-content: space-around;
+   
+  }
+
+  h1 {
+    color: var(--cor-bg-secundaria);
+    font-family: var(--fonte-manchete);
+    font-size: 3rem;
+    font-weight: 700;
+   
+   }
+
+   .main-div-link {
+    display: flex;    
+    gap: 2rem;
+   } 
+
+   .main-img {
+    display: block;
+   }
+
+   
+
+
+  }
+
+
+
+  
 
 
 

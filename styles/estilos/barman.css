@@ -34,11 +34,19 @@ h2 {
     }
 
 
-    h2 {
+    .plantamos-text {
         font-size: 3rem;
         font-weight: 700;
 
     }
+    .container_workplace-texts-paragrafo {
+        color: var(--Button-Text);
+        font-family: var(--fonte-texto);
+        font-size: .8rem;
+        font-weight: 400;
+
+    }
+
 
     .plantamos {
         display: flex;
@@ -47,8 +55,16 @@ h2 {
 
     .ccontainer_photos-food-div {
         display: flex;
-       
-        
+
+
+    }
+
+    .container_workplace-texts-paragrafo {
+        color: var(--Button-Text);
+        font-family: var(--fonte-texto);
+        font-size: 1.5rem;
+        font-weight: 400;
+
     }
 
 

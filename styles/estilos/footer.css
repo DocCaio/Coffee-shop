@@ -45,3 +45,30 @@
 .footer-rights {
    margin-bottom: 1rem;
 }
+
+
+@media (min-width: 1440px) {
+
+
+   .footer>section {
+      display: flex;
+      flex-direction: row;
+
+   }
+
+   .footer_facilidades,
+   .footer_suporte,
+   .footer_endereco {
+      margin-top: 6rem;
+   }
+
+
+   .footer-rights {
+      display: flex;
+      justify-content: center;
+
+   }
+
+
+
+}

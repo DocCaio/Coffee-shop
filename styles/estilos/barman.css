@@ -1,4 +1,3 @@
-
 .container_dark {
     display: flex;
     justify-content: center;
@@ -6,7 +5,7 @@
     background-color: var(--cor-bg-secundaria);
     color: var(--cor-terciaria);
     padding: 2rem 1rem;
-        
+
 }
 
 .container_barman-img {
@@ -17,3 +16,40 @@
     color: var(--cor-terciaria);
 }
 
+h2 {
+    color: var(--Button-Text, #FFFFFE);
+    font-family: var(--fonte-manchete);
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+
+
+@media (min-width: 1440px) {
+
+    .container_barman {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+
+    h2 {
+        font-size: 3rem;
+        font-weight: 700;
+
+    }
+
+    .plantamos {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .ccontainer_photos-food-div {
+        display: flex;
+       
+        
+    }
+
+
+}

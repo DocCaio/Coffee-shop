@@ -10,6 +10,23 @@
 
 }
 
+.list-nav {
+  list-style: none;
+}
+
+.list-nav {
+  display: none;
+}
+
+.span-nav {
+  display: flex;
+  padding: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
 
 @media (min-width: 1440px) {
   .nav {

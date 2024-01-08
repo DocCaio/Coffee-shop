@@ -14,21 +14,65 @@
   list-style: none;
 }
 
-.list-nav {
-  display: none;
-}
+
 
 .span-nav {
   display: flex;
   padding: 1rem;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-around;
+
+button {
+  padding: 5px;
+  background: transparent;
+  border: solid 3px tomato;
+  border-radius: .5rem;
+  font-weight: bold;
+  width: 4rem;
+  cursor: pointer;
+}
+button:hover {
+  background: #000D;
+  color: white;
 }
 
+nav {
+  display: none;
+}
+
+.menu-active {
+  display: block
+}
+
+
+
+li {
+  list-style: none;
+  padding: .3rem 1rem;
+}
+
+li:hover {
+  background: #0003;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li:hover a {
+  text-decoration: underline;
+}
+
+
+
+
 @media (min-width: 1440px) {
+
+  button{
+    display: none;
+  }
+  
   .nav {
     display: flex;
     justify-content: space-around;
